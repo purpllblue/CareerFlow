@@ -52,7 +52,7 @@
 
 ### Profile
 
-> ![Profile(assets/css/media/profile.png)
+> ![Profile](assets/css/media/profile.png)
 
 ## 📁 Project Structure
 
