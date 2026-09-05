@@ -1,18 +1,19 @@
 # CareerFlow
 
-**CareerFlow** is a modern web-based job application tracker built with **PHP, MySQL, Bootstrap, HTML, CSS, and JavaScript**. It is designed to help users organize and monitor their job search process, from managing applications and companies to tracking recruitment stages, deadlines, and important events.
+**CareerFlow** is a modern web-based job application tracker built with **PHP, MySQL, Bootstrap, HTML, CSS, and JavaScript**. It is designed to help users organize and monitor their job search process, including job applications, companies, recruitment stages, deadlines, calendar events, notes, and personal profile information.
 
 ## ✨ Features
 
 * 📊 **Dashboard** — Overview of job applications and recruitment progress.
-* 💼 **Application Management** — Add, edit, and manage job applications.
-* 🏢 **Company Management** — Store and manage company information.
-* 📅 **Calendar** — Track interviews, deadlines, and other important recruitment events.
+* 💼 **Application Management** — Add, edit, delete, and manage job applications.
+* 🏢 **Company Management** — Add, edit, delete, and manage company information.
+* 📅 **Calendar Management** — Add, edit, and delete important recruitment events and deadlines.
+* 📝 **Notes Management** — Create, edit, and delete notes related to the job search process.
 * 👤 **Profile Management** — Manage personal profile information.
 * 🎨 **Theme Customization** — Choose between Blue, Pink, Purple, and Black themes.
 * 📂 **Collapsible Sidebar** — Expand or collapse the navigation sidebar.
-* 🔐 **Login & Logout** — Simple session-based authentication.
-* 💾 **Persistent Preferences** — Theme and sidebar preferences are saved locally.
+* 🔐 **Login & Logout** — Session-based authentication for accessing the application.
+* 💾 **Persistent Preferences** — Theme and sidebar preferences are saved locally in the browser.
 
 ## 🛠️ Built With
 
@@ -22,7 +23,7 @@
 * **CSS3** — Styling and responsive design
 * **JavaScript** — Interactive functionality
 * **Bootstrap 5.3.7** — UI components and responsive layout
-* **Bootstrap Icons** — Interface icons
+* **Bootstrap Icons 1.13.1** — Interface icons
 * **XAMPP** — Local development environment
 
 ## 📁 Project Structure
@@ -30,28 +31,55 @@
 ```text
 CareerFlow/
 ├── admin/
-│   ├── applications/
-│   │   └── edit.php
-│   ├── companies/
-│   │   ├── index.php
-│   │   ├── tambah.php
+│   ├── calendar/
 │   │   ├── edit.php
-│   │   └── hapus.php
-│   ├── dashboard.php
-│   ├── calendar.php
-│   ├── profile.php
+│   │   ├── hapus.php
+│   │   └── tambah.php
+│   ├── companies/
+│   │   ├── edit.php
+│   │   ├── hapus.php
+│   │   ├── index.php
+│   │   └── tambah.php
 │   ├── lamaran/
-│   │   └── index.php
-│   └── logout.php
+│   │   ├── edit.php
+│   │   ├── hapus.php
+│   │   ├── index.php
+│   │   └── tambah.php
+│   ├── notes/
+│   │   ├── edit.php
+│   │   ├── hapus.php
+│   │   └── tambah.php
+│   ├── calendar.php
+│   ├── dashboard.php
+│   ├── logout.php
+│   ├── profile.php
+│   └── theme.php
 ├── assets/
 │   └── css/
 │       └── theme.css
 ├── config/
 │   └── koneksi.php
-├── login.php
 ├── .gitignore
+├── login.php
 └── README.md
 ```
+
+### Directory Overview
+
+* **`admin/`** — Contains the main application pages available after login.
+* **`admin/calendar/`** — Handles calendar event management.
+* **`admin/companies/`** — Handles company data management.
+* **`admin/lamaran/`** — Handles job application management.
+* **`admin/notes/`** — Handles job search notes.
+* **`admin/calendar.php`** — Displays the main calendar interface.
+* **`admin/dashboard.php`** — Displays the main application dashboard.
+* **`admin/profile.php`** — Handles personal profile information.
+* **`admin/theme.php`** — Handles theme-related functionality.
+* **`admin/logout.php`** — Handles user logout.
+* **`assets/css/theme.css`** — Contains the application's theme styling.
+* **`config/koneksi.php`** — Handles the MySQL database connection.
+* **`login.php`** — Application login page.
+* **`.gitignore`** — Specifies files and directories excluded from Git tracking.
 
 ## 🚀 Getting Started
 
@@ -62,7 +90,7 @@ Make sure you have the following installed:
 * [XAMPP](https://www.apachefriends.org/)
 * PHP
 * MySQL
-* Web browser
+* A web browser
 
 ### Installation
 
@@ -78,7 +106,7 @@ git clone https://github.com/purpllblue/CareerFlow.git
 C:\xampp\htdocs\CareerFlow
 ```
 
-3. Start **Apache** and **MySQL** from XAMPP Control Panel.
+3. Start **Apache** and **MySQL** from the XAMPP Control Panel.
 
 4. Create a MySQL database named:
 
@@ -104,30 +132,30 @@ http://localhost/CareerFlow/
 
 CareerFlow provides four interface themes:
 
-| Theme     | Description                |
-| --------- | -------------------------- |
-| 🔵 Blue   | Default professional theme |
-| 🌸 Pink   | Soft and vibrant theme     |
-| 🟣 Purple | Modern purple theme        |
-| ⚫ Black   | Dark neutral theme         |
+| Theme         | Description                |
+| ------------- | -------------------------- |
+| 🔵 **Blue**   | Default professional theme |
+| 🌸 **Pink**   | Soft and vibrant theme     |
+| 🟣 **Purple** | Modern purple theme        |
+| ⚫ **Black**   | Dark neutral theme         |
 
 Theme preferences are stored locally in the browser and automatically restored when the application is opened again.
 
 ## 📌 Purpose
 
-CareerFlow was created to provide a simple and organized way to manage the job application process. Instead of keeping application information across multiple notes or spreadsheets, users can manage their applications, companies, recruitment stages, deadlines, and events through a single web application.
+CareerFlow was created to provide a simple and organized way to manage the job application process. It allows users to manage applications, companies, recruitment stages, deadlines, calendar events, notes, and personal information through a dedicated web application.
 
 ## 🔮 Future Improvements
 
 Potential improvements for future versions include:
 
 * Application statistics and analytics
-* Search and filtering
-* Email reminders
+* Advanced search and filtering
+* Email and deadline reminders
 * Document and CV management
 * More advanced authentication
 * Online deployment
-* Mobile-friendly improvements
+* Further mobile responsiveness improvements
 
 ## 📄 License
 
