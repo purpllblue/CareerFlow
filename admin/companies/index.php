@@ -2599,8 +2599,6 @@ html[data-theme="black"] .logout-confirm-yes:hover {
 
                         <th class="text-end">
 
-                            Action
-
                         </th>
 
                     </tr>
