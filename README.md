@@ -1,3 +1,4 @@
+
 # CareerFlow
 
 **CareerFlow** is a modern web-based job application tracker built with **PHP, MySQL, Bootstrap, HTML, CSS, and JavaScript**. It is designed to help users organize and monitor their job search process, including job applications, companies, recruitment stages, deadlines, calendar events, notes, and personal profile information.
@@ -25,6 +26,33 @@
 * **Bootstrap 5.3.7** — UI components and responsive layout
 * **Bootstrap Icons 1.13.1** — Interface icons
 * **XAMPP** — Local development environment
+
+## 📸 Screenshots
+
+### Login
+
+> ![Login](assets/media/login.png)
+
+### Dashboard
+
+> ![Dashboard](assets/media/dashboard.png)
+> ![Dashboard](assets/media/dashboard2.png)
+
+### Applications
+
+> ![Applications](assets/media/application.png)
+
+### Companies
+
+> ![Companies](assets/media/companies.png)
+
+### Calendar
+
+> ![Calendar](assets/media/calendar.png)
+
+### Profile
+
+> ![Profile(assets/media/profile.png)
 
 ## 📁 Project Structure
 
