@@ -31,28 +31,28 @@
 
 ### Login
 
-> ![Login](assets/media/login.png)
+> ![Login](assets/css/media/login.png)
 
 ### Dashboard
 
-> ![Dashboard](assets/media/dashboard.png)
-> ![Dashboard](assets/media/dashboard2.png)
+> ![Dashboard](assets/css/media/dashboard.png)
+> ![Dashboard](assets/css/media/dashboard2.png)
 
 ### Applications
 
-> ![Applications](assets/media/application.png)
+> ![Applications](assets/css/media/application.png)
 
 ### Companies
 
-> ![Companies](assets/media/companies.png)
+> ![Companies](assets/css/media/companies.png)
 
 ### Calendar
 
-> ![Calendar](assets/media/calendar.png)
+> ![Calendar](assets/css/media/calendar.png)
 
 ### Profile
 
-> ![Profile(assets/media/profile.png)
+> ![Profile(assets/css/media/profile.png)
 
 ## 📁 Project Structure
 
